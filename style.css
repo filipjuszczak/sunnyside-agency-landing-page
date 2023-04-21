@@ -407,6 +407,7 @@ body {
 .main__section-testimonials {
   padding-top: 4rem;
   margin-bottom: 4rem;
+  background-color: hsl(51 100% 49% / 0.02);
 }
 
 .main__section-testimonials__container {
