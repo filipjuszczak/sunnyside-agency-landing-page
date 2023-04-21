@@ -225,6 +225,7 @@ body {
 
 .main__section-features__tile {
   padding: 3rem 2rem;
+  background-color: hsl(51 100% 49% / 0.1);
 }
 
 .main__section-features__tile:nth-child(1),
@@ -356,7 +357,7 @@ body {
 
   .main__section-features__tile:nth-child(1),
   .main__section-features__tile:nth-child(4) {
-    padding: 0 10rem;
+    padding: 0 8rem;
     justify-content: center;
     align-items: start;
   }
