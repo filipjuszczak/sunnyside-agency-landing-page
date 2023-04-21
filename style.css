@@ -225,7 +225,7 @@ body {
 
 .main__section-features__tile {
   padding: 3rem 2rem;
-  background-color: hsl(51 100% 49% / 0.1);
+  background-color: hsl(51 100% 49% / 0.02);
 }
 
 .main__section-features__tile:nth-child(1),
