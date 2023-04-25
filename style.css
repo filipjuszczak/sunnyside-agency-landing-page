@@ -8,6 +8,7 @@
   /* font-families */
   --ff-primary: 'Barlow';
   --ff-secondary: 'Fraunces';
+
   overflow-x: hidden;
 }
 
@@ -189,7 +190,7 @@ body {
 }
 
 .header__text-box {
-  padding-top: 3rem;
+  padding-top: 6rem;
   padding-bottom: 8rem;
 }
 
@@ -364,7 +365,7 @@ body {
 
   .main__section-features__tile:nth-child(1) .main__section-features__heading,
   .main__section-features__tile:nth-child(4) .main__section-features__heading {
-    width: 16ch;
+    font-size: 3rem;
     text-align: left;
   }
 
@@ -533,9 +534,15 @@ body {
 
 .footer__link:link,
 .footer__link:visited {
+  padding-block: 1rem;
   font-size: 1.125rem;
   text-decoration: none;
   color: hsl(167 40% 24% / 0.7);
+}
+
+.footer__link:hover,
+.footer__link:active {
+  border-bottom: 2px solid hsl(167 40% 24% / 0.7);
 }
 
 .footer__social-media-box {
